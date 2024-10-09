@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3e5f5;
+    color: #4a148c;
+    text-align: center;
+}
+
+header {
+    background-color: #8e24aa;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.flowers-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.flower-card {
+    background-color: #ffffff;
+    border: 2px solid #ce93d8;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.flower-card:hover {
+    transform: scale(1.05);
+}
+
+.flower-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #6a1b9a;
+}
+
+p {
+    font-size: 1rem;
+    color: #4a148c;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #6a1b9a;
+    color: white;
+}
